@@ -1,0 +1,247 @@
+Develop a comprehensive, high-performance, and responsive multi-tool web application that incorporates all the functionalities listed below. The application must be built using a modern frontend framework (such as React, Vue, or Next.js) and must rely exclusively on client-side JavaScript libraries to ensure all tools function directly in the browser without a backend.
+
+### Technical Requirements:
+1. **Architecture:** Create a modular architecture where each tool is a separate, reusable component. Use a centralized routing system to navigate between categories and individual tools.
+2. **Functionality:** Ensure every tool listed is fully operational. For tools requiring specific logic, implement the following libraries:
+    - **PDF Manipulation:** `pdf-lib`
+    - **Image Processing:** `browser-image-compression`, `Cropper.js`, and `html2canvas`
+    - **QR/Barcode:** `qrcode` and `jsQR`
+    - **Cryptography/Security:** `CryptoJS`
+    - **Date/Time:** `Day.js`
+    - **Mathematics:** `Math.js`
+    - **File Handling:** `FileSaver.js`
+3. **Design System:**
+    - **Theme:** A professional, modern "Blue and White" aesthetic. Use a clean white background with various shades of professional blue (e.g., Navy, Royal Blue, and Sky Blue) for accents, buttons, and headers.
+    - **UI/UX:** Implement a sleek, card-based layout for tool selection. Use high-quality typography and plenty of whitespace to prevent clutter.
+    - **Animations:** Integrate smooth transitions and micro-interactions using a library like Framer Motion or GSAP. Include hover effects on tool cards, loading skeletons, and smooth page transitions.
+    - **Responsiveness:** The layout must be fully mobile-responsive, utilizing a grid system that adjusts from multi-column desktop views to single-column mobile views.
+4. **User Interface Features:**
+    - A searchable sidebar or top navigation bar categorized by tool type.
+    - A "Favorites" or "Recently Used" section.
+    - A "Copy to Clipboard" feature for all text-based outputs.
+    - Dark/Light mode toggle (defaulting to the Blue/White theme).
+
+### Tool Categories to Implement:
+1. Text Tools
+Word Counter
+Character Counter
+Sentence Counter
+Paragraph Counter
+Reading Time Calculator
+Case Converter
+Uppercase Converter
+Lowercase Converter
+Title Case Converter
+Sentence Case Converter
+Reverse Text
+Remove Extra Spaces
+Remove Duplicate Lines
+Remove Empty Lines
+Sort Lines
+Shuffle Text
+Random Text Generator
+Lorem Ipsum Generator
+Text Repeater
+Find and Replace
+Slug Generator
+URL Encoder
+URL Decoder
+HTML Encoder
+HTML Decoder
+Unicode Converter
+ASCII Converter
+Binary Converter
+Hex Converter
+Morse Code Generator
+Morse Code Decoder
+2. Developer Tools
+JSON Formatter
+JSON Validator
+JSON Minifier
+JSON Beautifier
+XML Formatter
+XML Validator
+HTML Formatter
+CSS Beautifier
+CSS Minifier
+JavaScript Beautifier
+JavaScript Minifier
+SQL Formatter
+Markdown Preview
+Markdown to HTML
+HTML to Markdown
+HTML Escape
+Regex Tester
+Regex Generator
+Base64 Encode
+Base64 Decode
+JWT Decoder
+JWT Parser
+UUID Generator
+Hash Generator
+SHA256 Generator
+MD5 Generator
+HMAC Generator
+Unix Timestamp Converter
+Timestamp to Date
+Cron Expression Generator
+3. Calculator Tools
+Percentage Calculator
+Age Calculator
+Date Difference Calculator
+Time Calculator
+Hour Calculator
+GPA Calculator
+CGPA Calculator
+Grade Calculator
+Marks Percentage Calculator
+Average Calculator
+Discount Calculator
+GST Calculator
+VAT Calculator
+Profit Calculator
+Loss Calculator
+EMI Calculator
+Loan Calculator
+SIP Calculator
+FD Calculator
+Compound Interest Calculator
+Simple Interest Calculator
+Tip Calculator
+Split Bill Calculator
+Unit Price Calculator
+4. Math Tools
+Scientific Calculator
+Fraction Calculator
+Percentage Increase Calculator
+Percentage Decrease Calculator
+Ratio Calculator
+LCM Calculator
+HCF Calculator
+Prime Number Checker
+Prime Number Generator
+Even/Odd Checker
+Random Number Generator
+Dice Roller
+Coin Flip
+Number to Words
+Roman Number Converter
+5. Color Tools
+Color Picker
+HEX to RGB
+RGB to HEX
+HEX to HSL
+HSL to HEX
+RGB to CMYK
+Color Palette Generator
+Gradient Generator
+CSS Gradient Generator
+Contrast Checker
+Random Color Generator
+6. Image Tools (Browser Only)
+Image Compressor
+Image Resizer
+Crop Image
+Rotate Image
+Flip Image
+PNG to JPG
+JPG to PNG
+WEBP to JPG
+JPG to WEBP
+Image to Base64
+Base64 to Image
+Blur Image
+Brightness Adjuster
+Contrast Adjuster
+Grayscale Converter
+Black and White Converter
+Rounded Corner Generator
+Watermark Image
+Image Metadata Viewer
+Image Dimension Checker
+7. PDF Tools (JavaScript Libraries)
+Merge PDF
+Split PDF
+Rotate PDF
+Delete PDF Pages
+Extract PDF Pages
+Compress PDF
+Add Page Numbers
+PDF Page Counter
+8. QR & Barcode Tools
+QR Code Generator
+QR Code Scanner
+WiFi QR Generator
+WhatsApp QR
+Email QR
+SMS QR
+vCard QR
+Barcode Generator
+9. Password & Security Tools
+Password Generator
+Password Strength Checker
+PIN Generator
+Random String Generator
+Random Username Generator
+Random OTP Generator
+10. Date & Time Tools
+Age Calculator
+Birthday Countdown
+Leap Year Checker
+Time Zone Converter
+Countdown Timer
+Stopwatch
+Digital Clock
+Calendar Generator
+Week Number Calculator
+11. SEO Tools
+Meta Tag Generator
+Open Graph Generator
+Robots.txt Generator
+Sitemap Generator
+Keyword Density Checker
+Word Counter
+Character Counter
+URL Slug Generator
+12. Social Media Tools
+YouTube Title Length Checker
+YouTube Tag Formatter
+Hashtag Generator
+Instagram Caption Formatter
+Tweet Character Counter
+13. File Tools
+File Size Converter
+ZIP Size Estimator
+File Extension Checker
+MIME Type Checker
+14. Unit Converters
+Length Converter
+Weight Converter
+Area Converter
+Volume Converter
+Temperature Converter
+Speed Converter
+Time Converter
+Currency Converter (API ke bina manual rates ya offline data ke saath)
+Storage Converter
+Energy Converter
+Pressure Converter
+15. Fun Tools
+Random Name Picker
+Random Team Generator
+Random Quote Generator
+Lucky Number Generator
+Spin Wheel
+Decision Maker
+Yes/No Generator
+Libraries jo frontend mein hi kaam karengi
+pdf-lib → PDF tools
+browser-image-compression → Image compression
+Cropper.js → Image crop
+qrcode → QR code generation
+jsQR → QR code scanning
+CryptoJS → Hash, MD5, SHA
+Day.js → Date calculations
+Math.js → Scientific calculations
+html2canvas → HTML to image
+FileSaver.js → File download

@@ -1,0 +1,21 @@
+Unique tool IDs in toolsData: 209
+Keys in registry: 194
+
+IDs in toolsData but NOT in registry (15):
+  text
+  developer
+  calculator
+  math
+  color
+  image
+  pdf
+  qrcode
+  password
+  datetime
+  seo
+  social
+  file
+  unit
+  fun
+
+Keys in registry but NOT in toolsData (0):
