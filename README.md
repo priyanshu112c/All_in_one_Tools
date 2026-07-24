@@ -8,7 +8,8 @@
 A modern, feature-rich web application with **150+ tools** across **17 categories** — all running entirely in the browser. No server required, no data leaves your machine.
 
 # Preview
-<img width="1366" height="764" alt="Screenshot 2026-07-24 203532" src="https://github.com/user-attachments/assets/bffbdf1c-ea1a-4e87-b7e8-84668a16f761" />
+<img width="1344" height="741" alt="Screenshot 2026-07-24 203532" src="https://github.com/user-attachments/assets/cd5bb57b-c1b7-40d1-b440-ce107df50e68" />
+
 
 ## Features
 
